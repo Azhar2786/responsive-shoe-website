@@ -133,8 +133,14 @@ img {
 .nav__link{
   color: var(--title-color);
   font-family: var(--second-font);
-
+  transition: color .4s;
 }
+
+.nav__link:hover{
+  color: var(--black-color);
+  font-weight: var(--font-bold);
+}
+
 .nav__close{
   position: absolute;
   top: 1.20rem;
